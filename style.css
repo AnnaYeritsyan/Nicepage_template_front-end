@@ -1,0 +1,465 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.header {
+    height: 80px;
+    background-color: #532ee7;
+}
+
+.logo {
+    color: white;
+    font-size: 36px;
+}
+
+.headerMain {
+    height: 834px;
+    background-color: #532ee7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cubeColor {
+    background-color: #ecb203;
+    height: 209px;
+    width: 50%;
+}
+
+.frstyellowFlex {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.secondYellowCube {
+    margin-bottom: 100px;
+}
+
+.whitebackground {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #532ee7;
+}
+
+.whitebgFlex {
+    width: 80%;
+    display: flex;
+    padding: 50px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 140px;
+}
+
+.headerTxt {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.headerTxt h1{
+font-size: 54px;
+}
+.headerTxt p{
+    font-style: italic;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin: 30px 0px 0px;
+    color: #111;
+}
+.btn1 {
+    letter-spacing: 1px;
+    transition-duration: 0.5s;
+    text-transform: none;
+    font-weight: 600;
+    background-image: none;
+    margin: 30px auto 0 0;
+    padding: 18px 57px 19px;
+    color: #ffffff !important;
+    background-color: #ecb203 !important;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 209px;
+    border: none;
+    
+}
+.headerTxt p a{
+    color: #111;
+    text-decoration-color: #ecb203;
+}
+.sectionPortfolio{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #532ee7;
+}
+.portfolioTxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.portfolioTxt h1{
+    font-size: 60px;
+    color: #ffffff;
+}
+.portfolioTxt p{
+    font-size: 18px;
+    color: #ffffff;
+    margin: 20px auto 0;
+    font-family: sans-serif;
+    width: 60%;
+    text-align: center;
+    line-height: 2.2;
+}
+.papers{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.paperOnly{
+    background-color: #ffffff;
+    width: 270px;
+    height: 370px;
+    margin: 15px;
+}
+.imgAndTxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 370px;
+    justify-content: space-between;
+    padding-bottom: 28px;
+}
+.imgAndTxt h1{
+    font-size: 20px;
+}
+.imgAndTxt img{
+    width: 100%;
+}
+.portfolioFreepik{
+    display: flex;
+    color: #ffffff;
+    font-style: italic;
+    font-family: sans-serif;
+    width: 280px;
+    margin: 40px auto ;
+    font-size: 16px;
+    font-weight: bold;
+}
+.portfolioFreepik a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sectionWorkedWith{
+    background-color: #ecb203;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 660px;
+    flex-direction: column;
+    align-items: center;
+}
+.workedWith p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 30px auto 0 285px;
+    word-wrap: break-word;
+    position: relative;
+}
+.workedWith h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.4;
+    margin: 30px auto 0 285px;
+    word-wrap: break-word;
+    position: relative;
+}
+.backgroundTxtandImg{
+    background-color: #532ee7;
+    color: white;
+    width: 55%;
+    min-height: 407px;
+    border-radius: 36px;
+    padding: 0 30px 30px 0;
+}
+
+.img{
+    width: 278px;
+    height: 278px;
+    background-image: url(https://assets.nicepagecdn.com/11a8ddce/4213223/images/portrait-beautiful-young-woman-standing-grey-wall1.jpg);
+    background-position: 50% 50%;
+    margin: -53px auto 0 -86px;
+    border-radius: 50% !important;
+    object-fit: cover;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.workedWith span img{
+    width: 94px;
+    height: 94px;
+    background-image: none;
+    margin: -19px auto 0 -16px;
+    padding: 18px;
+}
+.workedWith span {
+    width: 94px;
+    height: 94px;
+    border-radius: 50%;
+    margin: -178px auto 0 285px;
+    padding: 18px;
+    background-color: white;
+    position: absolute;
+}
+.section4{
+    background-color: #532ee7;
+}
+.centerFlex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section4 div h1{
+    color: #ffffff;
+    font-size: 3.75rem;
+    margin: 60px 62px 0 61px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.material-symbols-outlined{
+    font-weight: bold;
+    color: #ecb203;
+}
+.items ul li{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 2;
+    color: #ffffff;
+}
+.itemFlex{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn2{
+    margin: 40px auto 60px;
+    padding: 18px 57px 19px;
+}
+.emptydiv{
+    height: 220px;
+    width: 100%;
+    background-color: #532ee7;
+}
+.section5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ecb203;
+    align-items: center;
+    height: 870px;
+}
+.ticket{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: -149px auto 0;
+}
+
+.ticketItems{
+    color: #111111;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 23%;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-around;
+}
+.ticketItems img{
+    width: 64px;
+    height: 64px;
+}
+.ticketItems span{
+    font-size: 1rem;
+    margin: 19px 0 0;
+    text-align: center;
+    line-height: 2.2;
+}
+.ticketItems a{
+    text-decoration-color: #532ee7;
+    text-decoration-line: underline;
+    text-decoration-thickness: 2px;
+    color: #532ee7;
+    font-weight: 700;
+}
+.inputs{
+    padding: 30px;
+    width: 50%;
+    height: 440px;
+}
+.getInTouch{
+    width: 65%;
+    display: flex;   
+}
+.get{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.getInTouch div h1{
+    font-size: 3.75rem;
+    line-height: 1.1;
+    color: #532ee7;
+}
+.getInTouch div p{
+    font-weight: 700;
+    line-height: 1.8;
+    font-style: italic;
+    font-size: 1.125rem;
+    margin: 20px 0 0;
+}
+.getInTouchTxt{
+    width: 50%;
+    padding: 30px;
+}
+
+.inputs form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+}
+.inputs form div input{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: white;
+    width: 49%;
+    padding: 10px 12px;
+    background-image: none;
+    background-clip: padding-box;
+    height: auto;
+}
+textarea{
+    border: none;
+    border-bottom: 2px solid black;
+}
+.formSubmit{
+    background-color: #532ee7;
+    color: white;
+    border: none;
+    background-image: none;
+    border-style: none;
+    font-weight: 700;
+    letter-spacing: 0px;
+    width: 100%;
+    text-transform: none;
+    padding: 14px 30px 15px;
+    border-radius: 10px;
+    font-size: inherit;
+}
+.social a img{
+    width: 41px;
+    height: 41px;
+    color: #532ee7;
+}
+.social{
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    height: 41px;
+    min-height: 16px;
+    width: 224px;
+    min-width: 124px;
+    margin: 39px auto 0 0;
+    justify-content: space-between;
+}
+.footer{
+    color: white;
+    
+}
+@media only screen and (max-width: 1550px) {
+    .papers{
+        width: 85%;
+    } 
+}
+
+@media only screen and (max-width: 1200px) {
+    .whitebgFlex {
+        flex-direction: column;
+    }
+    .headerMain{
+        height: 1350px;
+    }
+    .papers{
+        width: 80%;
+    }
+    .backgroundTxtandImg {
+        width: 80%;
+    }
+}
+@media only screen and (max-width:1000px){
+    .itemFlex{
+        width: 100%;
+    }
+    .ticketItems{
+        padding: 12px;
+    }
+}
+@media only screen and (max-width: 760px) {
+    .workedWith p{
+        margin: 0;
+    }
+    .ticket{
+        width: 100%;
+    }
+    .section5{
+        height: 100%;
+    }
+    .getInTouch{
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .itemFlex{
+        height: 100%;
+        flex-direction: column;
+    }
+    .ticket{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ticketItems{
+        width: 80%;
+        margin: 25px;
+    }
+    .getInTouch{
+        flex-direction: column;
+        align-items: center;
+    }
+    .inputs{
+        width: 100%;
+    }
+    .getInTouchTxt{
+        width: 100%;
+    }
+    .sectionWorkedWith{
+        height: 750px;
+    }
+}
