@@ -359,6 +359,7 @@ font-size: 54px;
 textarea{
     border: none;
     border-bottom: 2px solid black;
+    padding: 10px 12px;
 }
 .formSubmit{
     background-color: #532ee7;
